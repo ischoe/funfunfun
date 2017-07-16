@@ -1,6 +1,6 @@
 const R = require('ramda');
 
-const badWords = ['fuck', 'fucked', 'ashole', 'suck'];
+const badWords = ['fuck', 'fucked', 'ashole', 'sucker'];
 
 const includes = R.curry((x, what) => R.toLower(x).includes(R.toLower(what)));
 
